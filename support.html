@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Goul Wallet Support</title>
+<meta name="description" content="Support and help resources for Goul Wallet, a non-custodial wallet for GU tokens.">
+<style>
+  :root {
+    --bg: #0A0A0A;
+    --surface: #141414;
+    --border: rgba(255,255,255,0.10);
+    --text: #F2F2F2;
+    --text-dim: rgba(255,255,255,0.62);
+    --accent: #FF6B35;
+    --accent-quiet: rgba(255,107,53,0.14);
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover, a:focus-visible { text-decoration: underline; }
+  a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  .wrap {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 56px 24px 80px;
+  }
+
+  header {
+    margin-bottom: 48px;
+  }
+  .wordmark {
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    margin: 0 0 4px;
+  }
+  .wordmark span { color: var(--accent); }
+  header p {
+    color: var(--text-dim);
+    margin: 0;
+    font-size: 15px;
+  }
+
+  h1 {
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+    margin: 0 0 12px;
+  }
+  .lede {
+    color: var(--text-dim);
+    font-size: 16px;
+    max-width: 52ch;
+    margin: 0 0 40px;
+  }
+
+  section {
+    margin-bottom: 36px;
+    padding-bottom: 36px;
+    border-bottom: 1px solid var(--border);
+  }
+  section:last-of-type {
+    border-bottom: none;
+  }
+  h2 {
+    font-size: 17px;
+    font-weight: 700;
+    margin: 0 0 10px;
+  }
+  section p, section li {
+    color: var(--text-dim);
+    font-size: 15px;
+    max-width: 60ch;
+  }
+  section ul, section ol {
+    padding-left: 20px;
+    margin: 8px 0 0;
+  }
+  section li + li { margin-top: 6px; }
+
+  .contact-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 20px 22px;
+  }
+  .contact-card h2 { margin-bottom: 6px; }
+  .contact-card a {
+    display: inline-block;
+    margin-top: 10px;
+    background: var(--accent-quiet);
+    color: var(--accent);
+    padding: 8px 14px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  footer {
+    margin-top: 56px;
+    padding-top: 24px;
+    border-top: 1px solid var(--border);
+    color: var(--text-dim);
+    font-size: 13px;
+  }
+  footer p { margin: 0 0 6px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+
+    <header>
+      <p class="wordmark">Goul<span>Wallet</span></p>
+      <p>Support</p>
+    </header>
+
+    <h1>How can we help?</h1>
+    <p class="lede">
+      Goul Wallet is a non-custodial wallet for storing, sending, and receiving GU tokens.
+      Below are answers to common questions. If you don't find what you need, reach out
+      directly — we read every message.
+    </p>
+
+    <section>
+      <h2>Setting up a wallet</h2>
+      <p>
+        Open the app and choose <strong>Create Wallet</strong> to generate a new wallet, or
+        <strong>Import Wallet</strong> if you already have a seed phrase. During setup, write
+        down your recovery phrase and store it somewhere safe and offline — it's the only way
+        to recover your wallet if you lose access to your device.
+      </p>
+    </section>
+
+    <section>
+      <h2>Backing up your wallet</h2>
+      <p>
+        Your recovery phrase is the only backup for your wallet. Goul Wallet never stores it
+        on our servers, and we cannot recover it for you if it's lost. Keep a written copy in
+        a secure location, and never share it with anyone.
+      </p>
+    </section>
+
+    <section>
+      <h2>Sending and receiving GU</h2>
+      <p>
+        From the home screen, tap <strong>Send</strong> to transfer tokens to another address,
+        or <strong>Receive</strong> to view your wallet address and QR code for others to send
+        to you. Double-check the recipient address before confirming any transfer — transactions
+        on the blockchain cannot be reversed.
+      </p>
+    </section>
+
+    <section>
+      <h2>Deleting a wallet</h2>
+      <p>
+        You can remove a wallet from your device at any time. From the home screen, tap the
+        portfolio card, then <strong>Manage Wallets → Delete Wallet</strong>, and confirm.
+        To remove all wallets at once, go to <strong>Settings → Wallet Management → Delete All
+        Wallets</strong>. Deleting a wallet permanently removes it and its keys from your
+        device — this cannot be undone, so make sure you've backed up your recovery phrase
+        first if you want to restore it later.
+      </p>
+    </section>
+
+    <section>
+      <h2>Face ID and security</h2>
+      <p>
+        Goul Wallet supports biometric authentication for an extra layer of protection. You
+        can enable or disable it anytime in <strong>Settings → Security → Face ID</strong>.
+        Your private keys are stored securely on your device and are never transmitted to us
+        or any third party.
+      </p>
+    </section>
+
+    <section class="contact-card">
+      <h2>Still need help?</h2>
+      <p>Email our support team and we'll get back to you as soon as we can.</p>
+      <a href="mailto:support@goul.io">support@goul.io</a>
+    </section>
+
+    <footer>
+      <p>Goul Wallet is a non-custodial application. All wallet data is stored locally on
+      your device — we never have access to your private keys or recovery phrase.</p>
+      <p>© 2026 Goul Networks. All rights reserved.</p>
+    </footer>
+
+  </div>
+</body>
+</html>
